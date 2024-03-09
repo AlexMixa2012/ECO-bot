@@ -42,5 +42,8 @@ async def glass(ctx):
 async def concrete(ctx):
     await ctx.send(f'50%')
 
-
+@bot.command('help')
+async def concrete(ctx):
+    await ctx.send(f'Привет чел {bot.user}. это вот про екологию, здесь можеш писать толко мартерялы на ENG. например как (plastic) и т.п')
+    
 bot.run('')
